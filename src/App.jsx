@@ -38,9 +38,9 @@ const App = () => {
     useEffect(() => {
         setData({...data, loading: true})
         const fetchData = async () => {
-            const productData = await fetch('http://localhost:8080/api/products')
+            const productData = await fetch('https://saltazon-online.cyclic.app/api/products')
             const products = await productData.json();
-            const storeData = await fetch('http://localhost:8080/api/store')
+            const storeData = await fetch('https://saltazon-online.cyclic.app/api/store')
             const stores = await storeData.json();
             try {
             setData({

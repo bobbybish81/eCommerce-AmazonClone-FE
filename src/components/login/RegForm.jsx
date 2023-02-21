@@ -32,7 +32,7 @@ function RegForm() {
 
   const onSubmit = async (values) => {
     try {
-      const response = await axios.post('http://localhost:8080/user/register', values);
+      const response = await axios.post('https://saltazon-online.cyclic.app/user/register', values);
       setRegistration(response.data)
       setTimeout(() => navigate('/login'), 5000);
     }

@@ -7,7 +7,7 @@ function AddProductForm({ data, setData, displayForm, setDisplayForm, role, stor
     const onSubmit = async (values) => {
       setDisplayForm(false)
         try {
-        const response = await axios.post(`http://localhost:8080/api/store/${storeId}/products`, values);
+        const response = await axios.post(`https://saltazon-online.cyclic.app/api/store/${storeId}/products`, values);
         alert(`${values.title} added to store`)
         setData({
           ...data,

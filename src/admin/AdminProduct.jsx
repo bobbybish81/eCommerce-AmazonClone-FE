@@ -8,7 +8,7 @@ const AdminProduct = ({ product, data, setData, role }) => {
     const onSubmit = async (values) => {  
       if (values.delete) {
         try {
-          const response = await axios.delete(`http://localhost:8080/api/store/${product.storeId}/products/${product.id}`);
+          const response = await axios.delete(`https://saltazon-online.cyclic.app/api/store/${product.storeId}/products/${product.id}`);
           alert(`${product.title} deleted from store!`)
           setData({
             ...data,
@@ -22,7 +22,7 @@ const AdminProduct = ({ product, data, setData, role }) => {
           }
       } else {
         try {
-            const response = await axios.patch(`http://localhost:8080/api/store/${product.storeId}/products/${product.id}`, values);
+            const response = await axios.patch(`https://saltazon-online.cyclic.app/api/store/${product.storeId}/products/${product.id}`, values);
             if (values.price !== product.price) {
               alert(`${product.title} price changed to ${values.price}`)
             }

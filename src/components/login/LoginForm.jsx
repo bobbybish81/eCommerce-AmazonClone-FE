@@ -24,7 +24,7 @@ function LoginForm() {
 
   const onSubmit = async (values) => {
     try {
-      const response = await axios.post('http://localhost:8080/user/login', values);
+      const response = await axios.post('https://saltazon-online.cyclic.app/user/login', values);
       signIn({
         token: response?.data.token,
         expiresIn: 86400,
