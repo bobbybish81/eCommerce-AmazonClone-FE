@@ -1,0 +1,210 @@
+.product-page {
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #008295;
+    background-size: contain;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+}
+
+.product-item {
+    margin: 0 0.5rem 3rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #d7d6d6;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.product-category,
+.store-detail-heading {
+    color: #DCC97E;
+    margin: 0 auto;
+    text-shadow: 1px 1px #5c5b5b;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+.product-item h6 {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-item img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid #d6b73e;
+}
+
+.product-item p {
+    margin: auto;
+    padding: 1rem 0;
+    font-size: 0.75rem;
+}
+
+.price-qty-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-qty-section p {
+    padding: 0;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.product-item button {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    background-color: #000;
+    color: #DCC97E;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.product-item button:hover {
+    background-color: #f4eac2;
+    color: #000;
+    cursor: pointer;
+}
+
+/* pages css styles */
+
+.pagination {
+    width: 1000px;
+    height: 6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.paginationItemStyle {
+    margin: 3px;
+}
+
+.paginationItemStyle .page-link {
+    color: #fff;
+    width: 45px;
+}
+
+.paginationItemStyle.page-item.active button {
+    background-color: #DCC97E;
+    border-color: #DCC97E;
+    box-shadow: rgba(161, 100, 120, 0.30) 0px 0px 0px 3px;
+}
+
+.paginationLinkStyle {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.paginationLinkStyle:hover {
+    background-color: #252424;
+}
+
+.paginationLinkStyle:active {
+    background-color: #DCC97E;
+}
+
+.paginationChangePage {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationChangePage .previous, .paginationChangePage .next {
+    color: #fff;
+    font-weight: 700;
+    background-color: #000;
+}
+
+.paginationChangePage .previous:focus, .paginationChangePage .next:focus {
+    box-shadow: none;
+    background-color: #000;
+}
+
+.paginationChangePage .previous:hover, .paginationChangePage .next:hover {
+    background-color: #DCC97E;
+    color: #fff;
+}
+
+/* product detail css styles */
+
+.product-detail-section {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #d7d6d6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product-detail,
+.product-store-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.product-store-detail {
+    border-left: 1px solid #cccbcb;
+}
+
+.product-detail img,
+.store-img {
+    width: 260px;
+    height: 260px;
+    margin: 1rem auto;
+    border: 2px solid #d6b73e;
+}
+
+.product-detail button {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    background-color: #000;
+    color: #DCC97E;
+    border: none;
+    border-radius: 5px;
+}
+
+.product-detail button:hover {
+    background-color: #f4eac2;
+    color: #000;
+    cursor: pointer;
+}
+
+.product-store-detail a {
+    color: #000;
+    font-weight: 700;
+}
+.product-store-detail a:hover {
+    color: #DCC97E;
+}
+
+.store-products-header {
+    font-size: 2rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    color: #e6d58f;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #000;
+  }

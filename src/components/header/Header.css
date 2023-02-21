@@ -1,0 +1,48 @@
+header {
+  width: 100vw;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  background-color: #000;
+  color: #e6d58f;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+header img {
+  height: 4.5rem;
+  border: 2px solid #fff;
+  margin: 1rem;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navlink, .formlink {
+  list-style: none;
+  text-align: left;
+  margin: 0 2rem;
+}
+
+.navlink a, .formlink a {
+  color: #e6d58f;
+  text-decoration: none;
+}
+
+.navlink a:hover,
+.formlink a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+}

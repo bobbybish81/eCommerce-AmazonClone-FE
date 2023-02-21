@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem 1rem;
+}
+
+.search {
+  width: 40%;
+  cursor: pointer;
+}
+
+.filter {
+  width: 12rem;
+  text-align: right;
+}
+
+.filter a {
+  color: #fff;
+}
+
+.filter a:hover {
+  cursor: pointer;
+  color: #DCC97E;
+}
+
+

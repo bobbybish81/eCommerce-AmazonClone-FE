@@ -1,0 +1,96 @@
+.main {
+  margin: 0 auto;
+  background-color: #008295;
+}
+
+.checkout-section {
+  color: #d1d0d0;
+  padding: 2rem;
+  width: 60%;
+  margin: 4rem auto;
+  min-height: 100vh;
+}
+
+.message-article {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.purchase-message {
+  font-size: 2rem;
+  margin: 1rem auto;
+  text-align: center;
+  color: #e6d58f;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #000;
+}
+
+.message-article div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.checkout-form {
+  width: 100%;
+}
+
+.checkout-form h1 {
+  font-size: 1.75rem;
+  margin: 0;
+  color: #e6d58f;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #000;
+}
+
+.input,
+.split-input-left,
+.split-input-right {
+  width: 100%;
+  border: 1px solid #e6d58f;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.75rem 0;
+  font-size: 1rem;
+}
+
+.split-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.split-input-left {
+  margin-right: 0.5rem
+}
+
+.split-input-right {
+  margin-left: 0.5rem
+}
+
+.confirm-purchase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.purchase-btn {
+  background-color: #000;
+  color: #DCC97E;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  padding: 0.5rem 2rem;
+  margin: 0 auto;
+}
+
+.purchase-btn:hover {
+  background-color: #DCC97E;
+  color: #fff;
+  cursor: pointer;
+}
