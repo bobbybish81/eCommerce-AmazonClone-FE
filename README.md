@@ -35,6 +35,14 @@ Node JS
 Clone this repository then run the following commands: 
   - npm install
   - npm start
+
+# further development
+ - add css style rules for mobile
+ - add super-admin feature to allow user to add/delete stores
+ - adjust the product quantities on the backend following a purchase
+ - create order up after checking out the cart. The user puts up an order, the store admin marks it as sent/ready to pick up and then the user marks it as picked up.
+ - approve new stores
+ - add employees to stores
 # Author
 <h3>Robert Bish</h3>
 
