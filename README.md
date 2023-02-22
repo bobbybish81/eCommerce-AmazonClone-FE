@@ -6,8 +6,9 @@ This is an eCommerce app (reminiscent of Amazon) users can both buy and put up t
 
 <img src='./src/assets/saltazon.png' width='800'/>
 
-# Requirements
+Deployed link: https://saltazon-online.netlify.app
 
+# Requirements
 The app should be able to display all available products and store information once a user is logged in. A user can have one of two roles; Admin or User. 
 A user is the customer and can add products to their cart, change quantity, remove products and save their cart in local storage.
 Admin can add, change and delete products from the store the are assigned to, as per their unique Store Id. A user cannot access the admin page where changes to products occur. Only those with an 'admin' role can update product information.
@@ -43,6 +44,7 @@ Clone this repository then run the following commands:
  - create order up after checking out the cart. The user puts up an order, the store admin marks it as sent/ready to pick up and then the user marks it as picked up.
  - approve new stores
  - add employees to stores
+
 # Author
 <h3>Robert Bish</h3>
 
